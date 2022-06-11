@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{bcf7dd72-3a74-494c-8be9-3a5ea1464fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{86bacbe3-056f-4cb6-a80d-a524dee317bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{3147d97a-352f-4c98-82b8-626ffce041a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\lib">
+      <UniqueIdentifier>{b7213490-6d5f-47cb-b42b-ef924b52ceb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\entities">
+      <UniqueIdentifier>{5d3d6743-a468-406a-b687-b8d2e6725f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\entities\person">
+      <UniqueIdentifier>{467a8953-eb89-4bab-bf15-8a21971c231f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\model">
+      <UniqueIdentifier>{95dec26d-722c-40a5-881f-c92b50a9c6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\model\file">
+      <UniqueIdentifier>{37df37f4-4337-4990-8766-259ade6a42d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="core\entities\person\person.cpp">
+      <Filter>core\entities\person</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\lib\lib.h">
+      <Filter>core\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="core\entities\person\person.h">
+      <Filter>core\entities\person</Filter>
+    </ClInclude>
+    <ClInclude Include="core\model\file\file.h">
+      <Filter>core\model\file</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
